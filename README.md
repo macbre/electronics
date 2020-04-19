@@ -47,7 +47,12 @@ wget https://raw.githubusercontent.com/micronucleus/micronucleus/master/firmware
 avrdude -v -v -c usbasp-clone -p t85  -U flash:w:t85_aggressive.hex
 ```
 
-https://raw.githubusercontent.com/damellis/attiny/ide-1.6.x-boards-manager/package_damellis_attiny_index.json - board definitions for ATTiny
+Board manager URLs:
+
+```
+http://digistump.com/package_digistump_index.json
+https://raw.githubusercontent.com/damellis/attiny/ide-1.6.x-boards-manager/package_damellis_attiny_index.json
+```
 
 https://electronics.stackexchange.com/a/216233 - Arduino programming directly via USB
 
