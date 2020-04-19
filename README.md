@@ -21,6 +21,8 @@ $ sudo avrdude -v -v -P /dev/ttyUSB0 -c avrisp -p t85
 
 https://www.electroschematics.com/learn-to-use-attiny85-usb-mini-development-board/
 
+![](https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/0995f7a6-730b-48d0-8612-c4408d15e84d/dc7h4n3-51e6389c-5f86-4fb2-a7ad-34f75f672003.png)
+
 ## Arduino programmers
 
 ### USB2TT_CO4 from homsun-ic.com
@@ -63,3 +65,5 @@ Connect:
 [  +0,000003] usb 1-1: Product: USBasp
 [  +0,000003] usb 1-1: Manufacturer: www.fischl.de
 ```
+
+![](https://raw.githubusercontent.com/macbre/electronics/master/pictures/IMG_20200419_164215.png)
