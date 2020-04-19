@@ -6,6 +6,7 @@ Various electronics related notes, projects and schematics
 
 ```
 $ sudo apt install -y avrdude
+$ sudo avrdude -v -v -P /dev/ttyUSB0 -c avrisp -p t85 
 ```
 
 ## Arduino boards
