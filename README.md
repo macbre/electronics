@@ -23,6 +23,23 @@ https://www.electroschematics.com/learn-to-use-attiny85-usb-mini-development-boa
 
 ![](https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/0995f7a6-730b-48d0-8612-c4408d15e84d/dc7h4n3-51e6389c-5f86-4fb2-a7ad-34f75f672003.png)
 
+```
+# avrdude -v -v -c usbasp-clone -p t85 -n 2>&1 | tail  -n12
+avrdude: Device signature = 0x1e930b (probably t85)
+avrdude: safemode: lfuse reads as E1
+avrdude: safemode: hfuse reads as DD
+avrdude: safemode: efuse reads as FE
+
+avrdude: safemode: lfuse reads as E1
+avrdude: safemode: hfuse reads as DD
+avrdude: safemode: efuse reads as FE
+avrdude: safemode: Fuses OK (E:FE, H:DD, L:E1)
+
+avrdude done.  Thank you.
+```
+
+[Fuse bits](http://eleccelerator.com/fusecalc/fusecalc.php?chip=attiny85&LOW=E1&HIGH=DD&EXTENDED=FE&LOCKBIT=FF)
+
 ## Arduino programmers
 
 ### USB2TT_CO4 from homsun-ic.com
