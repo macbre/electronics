@@ -47,6 +47,9 @@ wget https://raw.githubusercontent.com/micronucleus/micronucleus/master/firmware
 avrdude -v -v -c usbasp-clone -p t85  -U flash:w:t85_aggressive.hex
 ```
 
+https://raw.githubusercontent.com/damellis/attiny/ide-1.6.x-boards-manager/package_damellis_attiny_index.json
+ - board definitions for ATTiny
+
 ## Arduino programmers
 
 ### USB2TT_CO4 from homsun-ic.com
