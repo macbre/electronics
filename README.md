@@ -10,6 +10,10 @@ Various electronics related notes, projects and schematics
 
 * [Pin outs](https://www.arduino.cc/en/Hacking/MiniBootloader)
 
+### [Mini ATTINY85 Micro USB Development Board for Digispark Kickstarter](https://irishelectronics.ie/epages/950018241.sf/en_IE/?ObjectID=5295918)
+
+https://www.electroschematics.com/learn-to-use-attiny85-usb-mini-development-board/
+
 ## Arduino programmers
 
 ### USB2TT_CO4 from homsun-ic.com
