@@ -41,3 +41,14 @@ Connect:
      TXD <--------> RXD
      5V  <--------> VCC
 ```
+
+
+### [USBasp](https://irishelectronics.ie/USB-ISP-AVR-Programmer-Adapter-51)
+
+```
+[kwi15 14:36] usb 1-1: new low-speed USB device number 51 using xhci_hcd
+[  +0,154185] usb 1-1: New USB device found, idVendor=16c0, idProduct=05dc, bcdDevice= 1.02
+[  +0,000007] usb 1-1: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[  +0,000003] usb 1-1: Product: USBasp
+[  +0,000003] usb 1-1: Manufacturer: www.fischl.de
+```
