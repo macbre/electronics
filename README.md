@@ -40,6 +40,13 @@ avrdude done.  Thank you.
 
 [Fuse bits](http://eleccelerator.com/fusecalc/fusecalc.php?chip=attiny85&LOW=E1&HIGH=DD&EXTENDED=FE&LOCKBIT=FF)
 
+Bootloader:
+
+```
+wget https://raw.githubusercontent.com/micronucleus/micronucleus/master/firmware/releases/t85_aggressive.hex
+avrdude -v -v -c usbasp-clone -p t85  -U flash:w:t85_aggressive.hex
+```
+
 ## Arduino programmers
 
 ### USB2TT_CO4 from homsun-ic.com
