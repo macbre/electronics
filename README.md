@@ -23,3 +23,13 @@ $ sudo -i
 # the led should blink
 
 ```
+
+Connect:
+
+```
+     usb2ttl    arduino pro mini
+     GND <--------> GND
+     RXD <--------> TXD
+     TXD <--------> RXD
+     5V  <--------> VCC
+```
