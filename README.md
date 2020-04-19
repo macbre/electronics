@@ -2,6 +2,12 @@
 Various electronics related notes, projects and schematics
 
 
+## Debian setup
+
+```
+$ sudo apt install -y avrdude
+```
+
 ## Arduino boards
 
 ### [Arduino Pro Mini atmega328 Board 5V 16M Compatible Nano](https://store.arduino.cc/arduino-pro-mini)
