@@ -4,7 +4,10 @@ Various electronics related notes, projects and schematics
 
 ## Arduino boards
 
-* [Arduino Pro Mini atmega328 Board 5V 16M Compatible Nano](https://store.arduino.cc/arduino-pro-mini)
+### [Arduino Pro Mini atmega328 Board 5V 16M Compatible Nano](https://store.arduino.cc/arduino-pro-mini)
+
+> **LED: 13**. There is a built-in LED connected to digital pin 13. When the pin is HIGH value, the LED is on, when the pin is LOW, it's off.
+
 
 ## Arduino programmers
 
