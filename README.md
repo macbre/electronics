@@ -8,6 +8,7 @@ Various electronics related notes, projects and schematics
 
 > **LED: 13**. There is a built-in LED connected to digital pin 13. When the pin is HIGH value, the LED is on, when the pin is LOW, it's off.
 
+* [Pin outs](https://www.arduino.cc/en/Hacking/MiniBootloader)
 
 ## Arduino programmers
 
