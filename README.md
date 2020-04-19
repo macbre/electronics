@@ -54,6 +54,24 @@ http://digistump.com/package_digistump_index.json
 https://raw.githubusercontent.com/damellis/attiny/ide-1.6.x-boards-manager/package_damellis_attiny_index.json
 ```
 
+Blink:
+
+```c
+void setup() {
+ pinMode(1, OUTPUT);
+}
+
+
+void loop() {
+  while(1) {
+   digitalWrite(1, HIGH);
+   delay(200);
+   digitalWrite(1, LOW);
+   delay(200);
+  }
+}
+```
+
 https://electronics.stackexchange.com/a/216233 - Arduino programming directly via USB
 
 ## Arduino programmers
