@@ -2,6 +2,10 @@
 Various electronics related notes, projects and schematics
 
 
+## Arduino boards
+
+* [Arduino Pro Mini atmega328 Board 5V 16M Compatible Nano](https://store.arduino.cc/arduino-pro-mini)
+
 ## Arduino programmers
 
 ### USB2TT_CO4 from homsun-ic.com
