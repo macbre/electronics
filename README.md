@@ -40,12 +40,22 @@ avrdude done.  Thank you.
 
 [Fuse bits](http://eleccelerator.com/fusecalc/fusecalc.php?chip=attiny85&LOW=E1&HIGH=DD&EXTENDED=FE&LOCKBIT=FF)
 
-Bootloader:
+After burning bootloader:
 
 ```
-wget https://raw.githubusercontent.com/micronucleus/micronucleus/master/firmware/releases/t85_aggressive.hex
-avrdude -v -v -c usbasp-clone -p t85  -U flash:w:t85_aggressive.hex
+avrdude: Device signature = 0x1e930b (probably t85)
+avrdude: safemode: lfuse reads as 62
+avrdude: safemode: hfuse reads as DF
+avrdude: safemode: efuse reads as FF
+
+avrdude: safemode: lfuse reads as 62
+avrdude: safemode: hfuse reads as DF
+avrdude: safemode: efuse reads as FF
+avrdude: safemode: Fuses OK (E:FF, H:DF, L:62)
 ```
+
+[Fuse bits](http://eleccelerator.com/fusecalc/fusecalc.php?chip=attiny85&LOW=62&HIGH=DF&EXTENDED=FF&LOCKBIT=FF) - internal  8 MHz clock, divided internally by 1 MHz
+
 
 Board manager URLs:
 
