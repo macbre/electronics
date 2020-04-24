@@ -15,7 +15,13 @@ $ sudo avrdude -v -v -P /dev/ttyUSB0 -c avrisp -p t85
 
 > **LED: 13**. There is a built-in LED connected to digital pin 13. When the pin is HIGH value, the LED is on, when the pin is LOW, it's off.
 
-* [Pin outs](https://www.arduino.cc/en/Hacking/MiniBootloader)
+![](https://live.staticflickr.com/8252/8572012276_80391d0393_o_d.png)
+
+Using USB2TT_004 converter to program:
+
+```
+
+```
 
 ### [Mini ATTINY85 Micro USB Development Board for Digispark Kickstarter](https://irishelectronics.ie/epages/950018241.sf/en_IE/?ObjectID=5295918)
 
