@@ -11,17 +11,30 @@ $ sudo avrdude -v -v -P /dev/ttyUSB0 -c avrisp -p t85
 
 ## Arduino boards
 
-### [Arduino Pro Mini atmega328 Board 5V 16M Compatible Nano](https://store.arduino.cc/arduino-pro-mini)
+### [Arduino Pro Mini atmega328 Board 5V 16M Compatible Nano](https://store.arduino.cc/arduino-pro-mini) @ 16 MHz
 
 > **LED: 13**. There is a built-in LED connected to digital pin 13. When the pin is HIGH value, the LED is on, when the pin is LOW, it's off.
 
 ![](https://live.staticflickr.com/8252/8572012276_80391d0393_o_d.png)
 
-Using USB2TT_004 converter to program:
+Using USB2TT_004 converter to program (RX/TX pins needs to be crossed):
 
 ```
+# avrdude -v -v -p m328p -n  -c arduino -P /dev/ttyUSB0  -b 57600 2>&1  | tail  -n12
+avrdude: Device signature = 0x1e950f (probably m328p)
+avrdude: safemode: lfuse reads as 0
+avrdude: safemode: hfuse reads as 0
+avrdude: safemode: efuse reads as 0
 
+avrdude: safemode: lfuse reads as 0
+avrdude: safemode: hfuse reads as 0
+avrdude: safemode: efuse reads as 0
+avrdude: safemode: Fuses OK (E:00, H:00, L:00)
+
+avrdude done.  Thank you.
 ```
+
+[Fuse bits](http://eleccelerator.com/fusecalc/fusecalc.php?chip=atmega328p&LOW=00&HIGH=00&EXTENDED=00&LOCKBIT=FF) - external clock
 
 ### [Mini ATTINY85 Micro USB Development Board for Digispark Kickstarter](https://irishelectronics.ie/epages/950018241.sf/en_IE/?ObjectID=5295918)
 
