@@ -36,6 +36,8 @@ avrdude done.  Thank you.
 
 [Fuse bits](http://eleccelerator.com/fusecalc/fusecalc.php?chip=atmega328p&LOW=00&HIGH=00&EXTENDED=00&LOCKBIT=FF) - external clock
 
+> **Arduino**: select `Arduino Nano` as board and `ATmega328P (old bootloader)` as processor. This will force slower baud rate when programming.
+
 ### [Mini ATTINY85 Micro USB Development Board for Digispark Kickstarter](https://irishelectronics.ie/epages/950018241.sf/en_IE/?ObjectID=5295918)
 
 https://www.electroschematics.com/learn-to-use-attiny85-usb-mini-development-board/
