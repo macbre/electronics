@@ -53,6 +53,9 @@ upload_protocol = arduino
 upload_port = /dev/ttyUSB0
 ```
 
+> **Remember to press RESET button on the board** before starting the upload. When the IDE is waiting for the programming to start, release the RESET button.
+
+
 [Fuse bits](http://eleccelerator.com/fusecalc/fusecalc.php?chip=atmega328p&LOW=00&HIGH=00&EXTENDED=00&LOCKBIT=FF) - external clock
 
 > **Arduino**: select `Arduino Nano` as board and `ATmega328P (old bootloader)` as processor. This will force slower baud rate when programming.
