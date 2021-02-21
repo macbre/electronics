@@ -13,6 +13,8 @@ $ sudo avrdude -v -v -P /dev/ttyUSB0 -c avrisp -p t85
 
 ### [Arduino Pro Mini atmega328 Board 5V 16M Compatible Nano](https://store.arduino.cc/arduino-pro-mini) @ 16 MHz
 
+> [platformio: Arduino Pro or Pro Mini ATmega328 (5V, 16 MHz) (`pro16MHzatmega328`)](https://docs.platformio.org/en/latest/boards/atmelavr/pro16MHzatmega328.html)
+
 > **LED: 13**. There is a built-in LED connected to digital pin 13. When the pin is HIGH value, the LED is on, when the pin is LOW, it's off.
 
 ![](https://live.staticflickr.com/8252/8572012276_80391d0393_o_d.png)
