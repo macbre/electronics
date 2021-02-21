@@ -36,6 +36,23 @@ avrdude: safemode: Fuses OK (E:00, H:00, L:00)
 avrdude done.  Thank you.
 ```
 
+`platformio.ini`
+
+```ini
+[env:pro16MHzatmega328]
+platform = atmelavr
+board = pro16MHzatmega328
+framework = arduino
+board_build.f_cpu = 16000000L
+
+; Serial Monitor options
+monitor_speed = 115200
+
+; avrdude  -c foo
+upload_protocol = arduino
+upload_port = /dev/ttyUSB0
+```
+
 [Fuse bits](http://eleccelerator.com/fusecalc/fusecalc.php?chip=atmega328p&LOW=00&HIGH=00&EXTENDED=00&LOCKBIT=FF) - external clock
 
 > **Arduino**: select `Arduino Nano` as board and `ATmega328P (old bootloader)` as processor. This will force slower baud rate when programming.
