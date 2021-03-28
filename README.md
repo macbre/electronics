@@ -171,3 +171,8 @@ Connect:
 ```
 
 ![](https://raw.githubusercontent.com/macbre/electronics/master/pictures/IMG_20200419_164215.png)
+
+
+## ESP8266 NodeMCU Pinout
+
+![](https://lastminuteengineers.com/wp-content/uploads/arduino/ESP-12E-Development-Board-ESP8266-NodeMCU-Pinout.png)
