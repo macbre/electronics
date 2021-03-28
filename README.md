@@ -179,4 +179,4 @@ Connect:
 
 * `VV` pin provides 5V from USB port
 * `D0` pin (GPIO16) maps to pin 16 in Arduino
-* for SPI use S1m SC, SO and SK pins
+* for SPI use `S1`, `SC`, `SO` and `SK` pins
