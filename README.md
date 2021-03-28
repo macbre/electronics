@@ -176,3 +176,7 @@ Connect:
 ## ESP8266 NodeMCU Pinout
 
 ![](https://lastminuteengineers.com/wp-content/uploads/arduino/ESP-12E-Development-Board-ESP8266-NodeMCU-Pinout.png)
+
+* `VV` pin provides 5V from USB port
+* `D0` pin (GPIO16) maps to pin 16 in Arduino
+* for SPI use S1m SC, SO and SK pins
