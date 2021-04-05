@@ -180,3 +180,26 @@ Connect:
 * `VV` pin provides 5V from USB port
 * `D0` pin (GPIO16) maps to pin 16 in Arduino
 * for SPI use GPIO12, 13 and 14 - https://arduino-esp8266.readthedocs.io/en/2.4.0-rc1/libraries.html#spi
+
+### platformio.ini
+
+```
+[env:nodemcuv2]
+platform = espressif8266
+board = nodemcuv2
+framework = arduino
+upload_speed = 2000000
+upload_port = /dev/ttyUSB0
+monitor_port = /dev/ttyUSB0
+monitor_speed = 115200
+lib_deps = 
+        adafruit/DHT sensor library@^1.4.1
+        adafruit/Adafruit Unified Sensor@^1.1.4
+        jfturcot/SimpleTimer@0.0.0-alpha+sha.b30890b8f7
+build_flags = 
+        -DDEBUG_ESP_PORT=Serial
+        -DDEBUG_ESP_HTTP_CLIENT
+        -DDEBUG_ESP_HTTP_SERVER
+        -DDEBUG_ESP_CORE
+        -DDEBUG_ESP_WIFI
+```
