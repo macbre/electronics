@@ -207,6 +207,7 @@ build_flags =
 ## ATTINY85 - DIGISPARK REV.3
 
 ![](https://makershop.ie/image/cache/catalog/p/00044/tiny-85-digispark-kickstarter-micro_main-0-550x550.jpg.webp)
+![](https://bigl.es/content/images/2019/09/pinout.png)
 
 https://docs.platformio.org/en/latest/boards/atmelavr/digispark-tiny.html
 
