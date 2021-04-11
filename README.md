@@ -9,6 +9,14 @@ $ sudo apt install -y avrdude
 $ sudo avrdude -v -v -P /dev/ttyUSB0 -c avrisp -p t85 
 ```
 
+## MacOS
+
+```
+upload_protocol = arduino
+upload_port = /dev/cu.usbserial-1140
+monitor_port = /dev/cu.usbserial-1140
+```
+
 ## Arduino boards
 
 ### [Arduino Pro Mini atmega328 Board 5V 16M Compatible Nano](https://store.arduino.cc/arduino-pro-mini) @ 16 MHz
