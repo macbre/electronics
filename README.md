@@ -222,11 +222,11 @@ board = digispark-tiny
 board_build.mcu = attiny85
 
 ; change MCU frequency
-board_build.f_cpu = 16500000L
+board_build.f_cpu = 16000000L
 
 ; via external UART/USB converter
 monitor_port = /dev/ttyUSB0
-monitor_speed = 115200
+monitor_speed = 9600
 
 lib_deps = featherfly/SoftwareSerial@^1.0
 ```
