@@ -210,6 +210,8 @@ build_flags =
 
 https://docs.platformio.org/en/latest/boards/atmelavr/digispark-tiny.html
 
+> Update platformio before programming the device (PIO Home > Updates > Update all).
+
 ```ini
 [env:digispark-tiny]
 platform = atmelavr
