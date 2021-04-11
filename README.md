@@ -203,3 +203,21 @@ build_flags =
         -DDEBUG_ESP_CORE
         -DDEBUG_ESP_WIFI
 ```
+
+## ATTINY85 - DIGISPARK REV.3
+
+![](https://makershop.ie/image/cache/catalog/p/00044/tiny-85-digispark-kickstarter-micro_main-0-550x550.jpg.webp)
+
+https://docs.platformio.org/en/latest/boards/atmelavr/digispark-tiny.html
+
+```ini
+[env:digispark-tiny]
+platform = atmelavr
+board = digispark-tiny
+
+; change microcontroller
+board_build.mcu = attiny85
+
+; change MCU frequency
+board_build.f_cpu = 16500000L
+```
