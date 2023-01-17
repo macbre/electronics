@@ -17,6 +17,8 @@ upload_port = /dev/cu.usbserial-1140
 monitor_port = /dev/cu.usbserial-1140
 ```
 
+`brew install minicom` for serial console monitor.
+
 ## Arduino boards
 
 ### [Arduino Pro Mini atmega328 Board 5V 16M Compatible Nano](https://store.arduino.cc/arduino-pro-mini) @ 16 MHz
