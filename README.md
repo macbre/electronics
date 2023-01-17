@@ -17,7 +17,7 @@ upload_port = /dev/cu.usbserial-1140
 monitor_port = /dev/cu.usbserial-1140
 ```
 
-`brew install minicom` for serial console monitor.
+> `brew install minicom` for [the serial console monitor](https://wiki.emacinc.com/wiki/Getting_Started_With_Minicom).
 
 ## Arduino boards
 
