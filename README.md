@@ -17,7 +17,7 @@ upload_port = /dev/cu.usbserial-1140
 monitor_port = /dev/cu.usbserial-1140
 ```
 
-> `brew install minicom` for [the serial console monitor](https://wiki.emacinc.com/wiki/Getting_Started_With_Minicom): `minicom -D /dev/cu.usbserial-14310`
+> `brew install minicom` for [the serial console monitor](https://wiki.emacinc.com/wiki/Getting_Started_With_Minicom): `minicom -D /dev/cu.usbserial-14310` / [drivers installations](https://learn.sparkfun.com/tutorials/how-to-install-ch340-drivers/all)
 
 ## Arduino boards
 
