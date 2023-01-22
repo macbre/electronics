@@ -28,6 +28,7 @@ airrohr esp8266:
 ### airrohr
 
 * [Flashing tool](https://github.com/opendata-stuttgart/airrohr-firmware-flasher)
+* [Linux drivers](https://learn.sparkfun.com/tutorials/how-to-install-ch340-drivers/linux)
 
 ## Arduino boards
 
