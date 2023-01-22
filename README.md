@@ -25,6 +25,10 @@ airrohr esp8266:
       +-o USB2.0-Serial@14410000  <class AppleUSBDevice, id 0x100009ab2, registered, matched, active, busy 0 (1 ms), retain 15>
 ```
 
+### airrohr
+
+* [Flashing tool](https://github.com/opendata-stuttgart/airrohr-firmware-flasher)
+
 ## Arduino boards
 
 ### [Arduino Pro Mini atmega328 Board 5V 16M Compatible Nano](https://store.arduino.cc/arduino-pro-mini) @ 16 MHz
