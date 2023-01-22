@@ -17,7 +17,13 @@ upload_port = /dev/cu.usbserial-1140
 monitor_port = /dev/cu.usbserial-1140
 ```
 
-> `brew install minicom` for [the serial console monitor](https://wiki.emacinc.com/wiki/Getting_Started_With_Minicom): `minicom -D /dev/cu.usbserial-14310` / [ch340g]([https://learn.sparkfun.com/tutorials/how-to-install-ch340-drivers/all](https://github.com/adrianmihalko/ch340g-ch34g-ch34x-mac-os-x-driver))
+> `brew install minicom` for [the serial console monitor](https://wiki.emacinc.com/wiki/Getting_Started_With_Minicom): `minicom -D /dev/cu.usbserial-14310` / [ch340g (esp8266)](https://learn.sparkfun.com/tutorials/how-to-install-ch340-drivers/all) / [CP210x (esp32)](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=downloads)
+
+airrohr esp8266:
+
+```
+      +-o USB2.0-Serial@14410000  <class AppleUSBDevice, id 0x100009ab2, registered, matched, active, busy 0 (1 ms), retain 15>
+```
 
 ## Arduino boards
 
