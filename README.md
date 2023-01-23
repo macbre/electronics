@@ -5,9 +5,12 @@ Various electronics related notes, projects and schematics
 ## Debian setup
 
 ```
+$ sudo usermod -aG dialout $(whoami) && sudo chmod a+rw /dev/ttyUSB0.
 $ sudo apt install -y avrdude
-$ sudo avrdude -v -v -P /dev/ttyUSB0 -c avrisp -p t85 
+$ sudo avrdude -v -v -P /dev/ttyUSB0 -c avrisp -p t85
 ```
+
+* [Drivers for ch340](https://0xsuk.github.io/posts/2022-07-19-how-to-install-ch340-on-ubuntu-22.04/)
 
 ## MacOS
 
