@@ -10,7 +10,7 @@ $ sudo apt install -y avrdude
 $ sudo avrdude -v -v -P /dev/ttyUSB0 -c avrisp -p t85
 ```
 
-* [Drivers for ch340](https://0xsuk.github.io/posts/2022-07-19-how-to-install-ch340-on-ubuntu-22.04/)
+* [Drivers for ch340](https://learn.sparkfun.com/tutorials/how-to-install-ch340-drivers/all#linux)
 
 ## MacOS
 
