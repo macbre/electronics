@@ -12,6 +12,13 @@ $ sudo avrdude -v -v -P /dev/ttyUSB0 -c avrisp -p t85
 
 * [Drivers for ch340](https://learn.sparkfun.com/tutorials/how-to-install-ch340-drivers/all#linux)
 
+### esp-wroom32
+
+```
+$ lsusb
+Bus 001 Device 005: ID 10c4:ea60 Silicon Labs CP210x UART Bridge
+```
+
 ## MacOS
 
 ```
